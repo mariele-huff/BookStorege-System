@@ -1,0 +1,55 @@
+.bg-mynav {
+  background-color:rgb(12, 77, 94);
+}
+.pdf{
+  margin-top:1rem;
+  height:2.5rem;
+  border:none;
+  border-radius:4px;
+  background:rgb(12, 77, 94);
+  color:white;
+  margin-right:1rem;
+}
+
+.pdf:hover{
+  margin-top:1rem;
+  height:2.5rem;
+  border:none;
+  border-radius:4px;
+  background:rgb(12, 60, 91);
+  color:white;
+}
+.create{
+  color: #f6f8fa;
+  background-color: transparent;
+  border: transparent;
+}
+
+#search{
+  width: 150px;
+  
+}
+
+.search{
+  margin-right: 20px;
+  margin-top: 5px;
+  color: white;
+
+}
+body {
+  font-size: 1.25rem;
+  background-color: #f6f8fa;
+}
+
+
+i{
+  color: white;
+}
+
+.big-swal{
+  width: 900px;
+}
+
+.title-cities{
+  margin-top: 2rem;
+}

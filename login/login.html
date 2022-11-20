@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login </title>
+  <link rel="icon" type="image/png" href="../menu/book.png"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+>
+
+  <link rel="stylesheet" href="styleLogin.css">
+</head>
+
+<body>
+  <section class="input">
+    <div class="container">
+      <div class="box">
+        <div id="title"> Login </div>
+<form >
+  <div class="form-floating mb-3">
+          <input type="email" class="form-control email" id="username" name="username" placeholder="name@example.com">
+          <label for="floatingInput">Email</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="password" class="form-control password" id="password" name="password" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+          </br>
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button"onclick="auth()" >Sing In</button>
+          </div>
+        </div>
+</form>
+      
+  </section>
+
+  <script src="./node_modules/blueimp-md5/js/md5.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript"
+     src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="./js/login.js"></script>
+</body>
+
+</html>

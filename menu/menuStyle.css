@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(231, 226, 226);
+}
+
+.bg-mynav {
+    background-color:rgb(12, 77, 94);
+  }
+
+  .options1{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 1rem;
+  }
+  .options2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+.btn-secondary{
+    background-color:rgb(12, 77, 94);
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.btn-secondary:hover{
+    background-color: rgb(83, 125, 138);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+i{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.aling-button1{
+ display: flex;
+ justify-content: flex-start;
+}
+
+.aling-button2{
+    display: flex;
+    justify-content: flex-start;
+   
+}

@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to right, rgb(167, 25, 202),rgb(65, 121, 139), rgb(65, 121, 139), darkblue)
+
+}
+#title{
+    color: white;
+    font-weight:lighter;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:40px ;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary{
+    background-color: rgb(47, 42, 117);
+    border:none;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.icon{
+    color: white;
+    font-size: 55px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: transparent;
+}
+
