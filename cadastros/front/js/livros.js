@@ -262,7 +262,7 @@ const createCategoriesCombo = async (id) => {
 
 
     var select1 = '<select class="swal2-input" id="select1">'
-
+    select1 += `<option value= "">select a category`
     await data.forEach(function (item) {
         if (id === item.id) {
             select1 += `<option value= "${item.id}" selected >${item.description}`
@@ -306,7 +306,7 @@ const createFormatCombo = async (id) => {
 
 
     var select3 = '<select class="swal2-input" id="select3">'
-
+    select3 += `<option value= "">select a format`
     await data.forEach(function (item) {
         if (id === item.id) {
             select3 += `<option value= "${item.id}" selected >${item.description}`

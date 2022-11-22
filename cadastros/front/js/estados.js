@@ -164,3 +164,35 @@ const showStateEditBox = async (id) => {
     });
 
 }
+
+const searchFor = async () => {
+    const item = document.querySelector('#search').value
+    const select = document.querySelector('#choice').value
+    if (select === "name") {
+        axios.get(`${ENDPOINT}/states/?name=${item}`)
+            .then((response) => {
+                const data = response.data;
+                if (response.status === 200) {
+                    createTable(data)
+                }
+            })
+
+    } if (select === "province") {
+        axios.get(`${ENDPOINT}/states/?province=${item}`)
+            .then((response) => {
+                const data = response.data;
+                if (response.status === 200) {
+                    createTable(data)
+                }
+            })
+    } if (select === "all") {
+
+        axios.get(`${ENDPOINT}/states`)
+            .then((response) => {
+                const data = response.data;
+                if (response.status === 200) {
+                    createTable(data)
+                }
+            })
+    }
+}
